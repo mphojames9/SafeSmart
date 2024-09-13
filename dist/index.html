@@ -4,9 +4,109 @@
     <meta charset="UTF-8">
    <title>Safe Smart</title>
     <link rel="stylesheet" href="styles.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
      <meta name="viewport" content="width=device-width, initial-scale=1.0">
    </head>
 <body>
+      <!--Navigation bar-->
+      <nav>
+        <div class="navbar">
+          <i class='bx bx-menu'></i>
+          <div class="logo">
+            <img src="../src/asserts/logo/safe_smart_logo.png" alt="" class="main-logo">
+            <a href="#">safe<span class="logo-deco">Sma</span>rt</a></div>
+          <div class="nav-links">
+            <div class="sidebar-logo">
+              <div class="logo">safe<span class="logo-deco">Sma</span>rt</div>
+              <i class='bx bx-x' ></i>
+            </div>
+            <ul class="links">
+              <li><a href="#app-download">Home</a></li>
+              <li>
+                <a href="#">Services</a>
+                <i class='bx bxs-chevron-down htmlcss-arrow arrow'></i>
+                <ul class="htmlCss-sub-menu sub-menu">
+                  <li><a href="#">Service</a></li>
+                  <li><a href="#">Service</a></li>
+                  <li><a href="#">Service</a></li>
+                  <li><a href="#">Service</a></li>
+                  <li class="more">
+                    <span><a href="#">More</a>
+                    <i class='bx bxs-chevron-right arrow more-arrow'></i>
+                  </span>
+                    <ul class="more-sub-menu sub-menu">
+                      <li><a href="#">Service</a></li>
+                      <li><a href="#">Service</a></li>
+                      <li ><a href="#">Service</a></li>
+    
+                    </ul>
+                  </li>
+                </ul>
+              </li>
+              <li>
+                <a href="#">Safe Smart</a>
+                <i class='bx bxs-chevron-down js-arrow arrow '></i>
+                <ul class="js-sub-menu sub-menu">
+                  <li><a href="#">About us</a></li>
+                  <li><a href="#">The Salution</a></li>
+                  <li><a href="#">Key Milestones</a></li>
+                  <li><a href="#">Founders</a></li>
+                  </ul>
+                </li>
+                <li><a href="#">Contact Us</a></li>
+              </ul>
+            </div>
+            <button class="sign-in-button">Sign in</button>
+        </div>
+      </nav>
+      <!--End of navigation bar-->
+    
+      <!--Login popup form-->
+      <div class='login-popup'>
+        <form action="" class='login-popup-container'>
+            <div class="login-popup-title">
+                <h2>Login</h2>
+                <img class="closeLoginForm" src="../src/asserts/icons/cross_icon.png" alt="" />
+            </div>
+            <div class="login-popup-inputs">
+                <input type='email' placeholder='Your email' required />
+                <input type='password' placeholder='Password' required />
+            </div>
+            <button>Login</button>
+            <div class="login-popup-condition">
+                <input type='checkbox' required></input>
+                <p>By continuing, I agree to the terms of use & privacy policy</p>
+            </div>
+            <div onclick="" style="display: flex;gap: 4px;">
+              <p>Create a new account?</p>
+              <a href="" class="Create-new-account-button">Click here</a>
+            </div>
+            </form>
+          </div>
+      <!--End of Login popup form-->
+    
+      <header>
+        <div class="header-content ">
+          <h1 class="header-content-h1"><span class="header-span">Subscribe.</span> Get updated. Stay healthy.</h1>
+          <div class="header-subscribe-box-section">
+            <input class=search-place type="text" placeholder="Enter yout email address">
+            <button class="subscribe-button">
+              <i class='bx bx-bell'></i><p>Subscribe<p>
+            </button>
+          </div>
+          <div class="place-selection-section">
+            <div>
+              <h2>Safe Smart bracelet</h2>
+              <p>The discreet bracelet that monitors your safety and health in real-time.</p>
+              <div class="learn-more" style="position: relative; display: flex; flex-direction: column;height: 60px; ">
+                <p style="margin: 0;">Learn more</p>
+                <i class='bx bxs-chevron-down htmlcss-arrow-animate' style= "position:absolute; margin: 20px; left: 0; right: 0; bottom: 0; top:0;color: tomato; font-size: 30px; animation: 2s infinite vertival-movenent;"></i>
+              </div>
+            </div>
+          </div>
+        </div>    
+      </header>
+      <!--End of header-->
   <script src="main.js"></script>
 </body>
 </html>
